@@ -1,0 +1,65 @@
+{
+  "name": "nim-theme",
+  "version": "1.0.0",
+  "description": "A flexible and powerful theming library for ReactJS, NextJS, and React Native applications.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "babel src --out-dir dist --ignore 'src/**/*.test.js'",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "react-native",
+    "theme",
+    "styling",
+    "custom-theme",
+    "nim-theme",
+    "nimcloud",
+    "nim-cli-tools",
+    "zaynmiraj",
+    "ZaYn Miraj",
+    "NimCloud Systems"
+  ],
+  "author": {
+    "name": "ZaYn Miraj",
+    "email": "zayn.miraj@gmail.com",
+    "url": "https://github.com/zaynmiraj",
+    "organization": "NimCloud Systems",
+    "organizationUrl": "https://nimcloudsystems.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaynmiraj/nim-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/zaynmiraj/nim-theme/issues"
+  },
+  "homepage": "https://github.com/zaynmiraj/nim-theme",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-native": "^0.66.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-native": "^0.66.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-syntax-jsx": "^7.27.1",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.16.0"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

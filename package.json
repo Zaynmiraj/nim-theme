@@ -1,6 +1,6 @@
 {
   "name": "nim-theme",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A flexible and powerful theming library for ReactJS, NextJS, and React Native applications.",
   "main": "src/index.js",
   "scripts": {
